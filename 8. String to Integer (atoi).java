@@ -4,7 +4,6 @@ class Solution {
         while(index<s.length()&&s.charAt(index)==' '){
               index+=1;
         }
-        // sign
         int sign = 1;
         if(index<s.length() && (s.charAt(index)=='+'||s.charAt(index)=='-')){
             char element= s.charAt(index);
